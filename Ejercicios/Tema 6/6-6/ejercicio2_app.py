@@ -13,7 +13,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "gcp_sa.json"
 
 client = genai.Client(
     vertexai=True,
-    project="streamlit-ebis-1770468023",
+    project="streamlit-ebis",
     location="us-central1"
 )
 
